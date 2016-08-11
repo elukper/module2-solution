@@ -1,0 +1,102 @@
+.row {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.boxFormat {
+	box-sizing: border-box;
+}
+
+.innerBox {
+	
+	background-color: lightgrey;
+	border: 1px solid black;
+	color: black;
+	margin: 10px 10px 10px 10px;
+}
+
+.miniBox {
+	box-sizing: border-box;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 45px;
+	color: black;
+	width: 95px;
+	float: right;
+	padding-right: 5px;
+	padding-left: 5px;	
+}
+
+.miniBoxText {
+	text-align: center;
+	text-anchor: middle;
+}
+
+
+#miniBoxRed {
+	background-color: red;
+}
+
+#miniBoxYellow {
+	background-color: yellow;
+}
+
+#miniBoxPink {
+	background-color: pink;
+}
+
+.contentBox {
+	clear: right;
+}
+
+.centerText {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+
+}
+
+#modPadding {
+	padding-right: 15px;
+	padding-top: 5px;
+}
+
+
+h1 {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+}
+
+
+
+@media (min-width: 992px) {
+
+.col-L-3 {
+	width: 33.333%;
+	float: left;
+}}
+
+@media (max-width: 991px) and (min-width: 768px) {
+
+.col-M-2 {
+	width: 50%;
+	float: left;
+}
+
+.col-M-1 {
+	width: 100%;
+	float: left;
+}
+
+}
+
+@media (max-width: 767px) {
+	
+.col-S-1 {
+	width: 100%;
+	float: left;
+}}
+
