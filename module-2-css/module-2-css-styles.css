@@ -5,6 +5,7 @@
 
 .boxFormat {
 	box-sizing: border-box;
+
 }
 
 .innerBox {
@@ -13,6 +14,7 @@
 	border: 1px solid black;
 	color: black;
 	margin: 10px 10px 10px 10px;
+	min-height: 130px;
 }
 
 .miniBox {
@@ -60,7 +62,7 @@
 
 #modPadding {
 	padding-right: 15px;
-	padding-top: 5px;
+	padding-top: 5px
 }
 
 
